@@ -1,0 +1,7 @@
+C:\Workspace\FizzBuzz\FizzBuzz\bin\Debug\netcoreapp2.0\FizzBuzz.deps.json
+C:\Workspace\FizzBuzz\FizzBuzz\bin\Debug\netcoreapp2.0\FizzBuzz.runtimeconfig.json
+C:\Workspace\FizzBuzz\FizzBuzz\bin\Debug\netcoreapp2.0\FizzBuzz.runtimeconfig.dev.json
+C:\Workspace\FizzBuzz\FizzBuzz\bin\Debug\netcoreapp2.0\FizzBuzz.dll
+C:\Workspace\FizzBuzz\FizzBuzz\bin\Debug\netcoreapp2.0\FizzBuzz.pdb
+C:\Workspace\FizzBuzz\FizzBuzz\obj\Debug\netcoreapp2.0\FizzBuzz.dll
+C:\Workspace\FizzBuzz\FizzBuzz\obj\Debug\netcoreapp2.0\FizzBuzz.pdb

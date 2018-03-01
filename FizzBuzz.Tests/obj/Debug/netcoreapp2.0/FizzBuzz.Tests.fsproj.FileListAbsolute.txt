@@ -1,0 +1,12 @@
+C:\Workspace\FizzBuzz\FizzBuzz.Tests\bin\Debug\netcoreapp2.0\xunit.runner.visualstudio.dotnetcore.testadapter.dll
+C:\Workspace\FizzBuzz\FizzBuzz.Tests\bin\Debug\netcoreapp2.0\xunit.runner.reporters.netcoreapp10.dll
+C:\Workspace\FizzBuzz\FizzBuzz.Tests\bin\Debug\netcoreapp2.0\xunit.runner.utility.netcoreapp10.dll
+C:\Workspace\FizzBuzz\FizzBuzz.Tests\bin\Debug\netcoreapp2.0\FizzBuzz.Tests.deps.json
+C:\Workspace\FizzBuzz\FizzBuzz.Tests\bin\Debug\netcoreapp2.0\FizzBuzz.Tests.runtimeconfig.json
+C:\Workspace\FizzBuzz\FizzBuzz.Tests\bin\Debug\netcoreapp2.0\FizzBuzz.Tests.runtimeconfig.dev.json
+C:\Workspace\FizzBuzz\FizzBuzz.Tests\bin\Debug\netcoreapp2.0\FizzBuzz.Tests.dll
+C:\Workspace\FizzBuzz\FizzBuzz.Tests\bin\Debug\netcoreapp2.0\FizzBuzz.Tests.pdb
+C:\Workspace\FizzBuzz\FizzBuzz.Tests\bin\Debug\netcoreapp2.0\FizzBuzz.dll
+C:\Workspace\FizzBuzz\FizzBuzz.Tests\bin\Debug\netcoreapp2.0\FizzBuzz.pdb
+C:\Workspace\FizzBuzz\FizzBuzz.Tests\obj\Debug\netcoreapp2.0\FizzBuzz.Tests.dll
+C:\Workspace\FizzBuzz\FizzBuzz.Tests\obj\Debug\netcoreapp2.0\FizzBuzz.Tests.pdb
