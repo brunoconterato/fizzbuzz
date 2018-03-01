@@ -30,6 +30,5 @@ let main argv =
             printfn "Invalid number!"
         | :? System.ArgumentOutOfRangeException ->
             printfn "Number must be positive"
-        | :? System.Exception -> 
-            printfn "Something went wrong"
+        | _ -> printfn "Something went wrong"
     0 // return an integer exit code
