@@ -1,35 +1,57 @@
 ﻿// Learn more about F# at http://fsharp.org
 
 open System
-open System
-open System
 
-let fizzBuzz n =
-    let mutable str = ""
-    for i=1 to n do
-        if (i % 5 = 0 && i % 3 = 0) then
-            str <- str + "FizzBuzz\n"
-        elif (i % 3 = 0) then
-            str <- str + "Fizz\n"
-        elif (i % 5 = 0) then
-            str <- str + "Buzz\n"
-        else
-            str <- str + i.ToString() + "\n"
+let isDivisibleBy number by =
+    number % by = 0
 
-    str.Remove(str.Length-1)
+let isFizz number =
+    isDivisibleBy number 3
+
+let isBuzz number =
+    isDivisibleBy number 5
+
+let fizzBuzz number =
+    let fizz = isFizz number
+    let buzz = isBuzz number
+    
+    if (fizz && buzz) then
+        "FizzBuzz"
+    elif (fizz) then
+        "Fizz"
+    elif (buzz) then
+        "Buzz"
+    else
+        string number
+
+let fizzBuzzList (number: string) =
+    try
+        let newNumber = number |> int
+        if newNumber<1 then
+            raise(new System.ArgumentOutOfRangeException(""))
+
+        [1..newNumber]
+            |> List.map (fun n -> (fizzBuzz n))
+            |> String.concat "\n"
+    with
+        | :? System.FormatException ->
+            printfn "%s" "Invalid number!"
+            reraise()
+        | :? System.ArgumentOutOfRangeException ->
+            printfn "%s" "Number must be positive"
+            reraise()
+        | _ ->
+            printfn "%s" "Something went wrong"
+            reraise()
 
 [<EntryPoint>]
 
 let main argv =
+    printf "%s" "Enter an integer, please: "
+    let input = Console.ReadLine()
+
     try
-        printf "%s" "Enter an integer, please: "
-        let input = Console.ReadLine() |> int
-        printfn "%s" ( fizzBuzz input )
+        printfn "%s" ( fizzBuzzList input )
     with
-        | :? System.FormatException ->
-            printfn "Invalid number!"
-        | :? System.ArgumentOutOfRangeException ->
-            printfn "Number must be positive"
-        | :? System.Exception -> 
-            printfn "Something went wrong"
-    0 // return an integer exit code
+        | _ -> ()
+    0
