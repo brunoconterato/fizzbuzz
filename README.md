@@ -1,7 +1,5 @@
-<<<<<<< HEAD
-
-=======
->>>>>>> 1ed552a28fa3e54dbcee1d6d1f9d4bc76e4b9221
+Desafio de aprender a programar F#.
+Desenvolver o FizzBuzz, com testes e boas práticas de programação F#.
   ______   _               ____                      
  |  ____| (_)             |  _ \                     
  | |__     _   ____  ____ | |_) |  _   _   ____  ____
